@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>The Hungry Griffin - Home Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,600;0,700;1,600;1,700&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="CSS/navBar.css">
+        <link rel="stylesheet" href="CSS/styleHomePage.css">
+        <script src="Script.js"></script> 
+        
+    </head>
+    <body>
+        <!--navigation begins-->
+        <nav>
+            <div class="logo">
+                <p>The Hungry Griffin</p>
+            </div>
+            <ul class="navigation">
+                <li><a href="Reservations.html">Reservations</a></li>
+                <li><a href="PrivateIvents.html">Private Events</a></li>
+                <li>
+                    <a href="#">Menus &#8595;</a>
+                    <ul class="dropDown">
+                        <li><a href="DineIn.html">Dine-In</a></li>
+                        <li><a href="DailySpecials.html">Daily Specials</a></li>
+                        <li><a href="PizzaAndPasta.html">Pizza and Pasta</a></li>
+                    </ul>
+                </li>
+                <li><a href="HomePage.html">Home</a></li>
+            </ul>
+        </nav>
+        <!--navigation ends-->
+
+    <div class="container">
+        <div class="Images fade">
+            <img src="Images/IntroImg4.jpg" alt="Fading image platting" style="width: 100%">
+            <div class="text" id="text1">We prepare the food always with attention to detail!</div>
+        </div>
+
+        <div class="Images fade">
+            <img src="Images/IntroImg2.jpg" alt="Fading image lots of meals" style="width: 100%">
+            <div class="text">Visit The Hungry Griffin Today!</div>
+        </div>
+
+        <div class="Images fade">
+            <img src="Images/IntroImg3.jpg"  alt="Fading image lots of dishes" style="width: 100%">
+            <div class="text">Fresh, fast and delicious!</div>
+        </div>
+        <a class="prev" onclick="slidesControl(-1)">&#10094;</a>
+        <a class="next" onclick="slidesControl(1)">&#10095;</a>
+    </div>
+
+    <div class="divs" id="quote">
+        <p>WHAT WE BELIEVE</p>
+        <br>
+        <br>
+        <p>"Let food be thy medicine and medicine be thy food."</p>
+        <p id="hippo">–Hippocrates</p>
+        <br>
+        <p class="addText">Food has played a fundamental role
+            within healthcare for centuries, and
+            its use in both preventative and
+            therapeutic medicine has been
+            documented in medical texts dating as
+            far back as the Hippocratic epoch.</p>
+    </div>
+    <div class="divs" id="events">
+        <p>WE'LL HOST OR CATER EVERY PARTY AND EVENT!</p>
+        <br>
+        <br>
+        <p class="addText">Our events are completely customized, reflecting the brand personality of each client. 
+            Whether we act for a family, a product, a company or a cause, our work embrace experiences 
+            that integrate innovative design with the finest in wine and cocktails, dining, music and entertainment</p>
+            <br> <br>
+            <button type="button" class="Breserve"  id="click"><span><a href="Reservations.html">Reserve now</a></span></button> 
+        </div>
+
+<!--SCALE THE IMAGES WHEN THE WINDOW SHRINKS-->
+    <div class="flexboxImg">
+        <div><img src="Images/Pizza.jpg"  alt="Pizza"></div>
+        <div><img src="Images/Meal.jpg" alt="French Fries"></div>
+        <div><img src="Images/Burgers.jpg" alt="Burgers with french fries"></div>
+        <div><img src="Images/Food.jpg" alt="Sandwiches"></div>
+    </div>
+    <div class="viewMenuDiv">
+        <img src="Images/Meal2.jpg" class="viewMenuImg" alt="Meal of something delicious">
+        <span id="textForMenu"><p>Want to see what we're cooking up?</p></span>
+        <button type="button" class="Bmenu"  id="click2"><span><a href="DailySpecials.html">View Menu</a></span></button> 
+        
+    </div>
+    
+    <!--Footer-->
+    <div class="flexboxFooter">
+        
+        <div id="about">
+            <br>
+            <br>
+            <br>
+            <h2 class="head">The Hungry Griffin</h2>
+            <br>
+            <p>The Hungry Griffin uses the best of the local ingredients and serve up a range of 
+                fresh, tasty dishes to our student body. Sometimes the chef will create an 
+                international dish to delight students and customers from one of the 40 nations we host here 
+                at AUBG. Whatever your preferences, you’ll find a selection of meals ranging 
+                from barbecued meat, salad, pizza and pasta to Bulgarian favorites.</p>
+        </div>
+        <div id="table">
+            <br>
+            <br>
+            <br>
+            <table>
+                <tr>
+                    <th colspan="2" class="head">Openning hours</th>
+                </tr>
+                <tr>
+                    <td class="day">Monday</td>
+                    <td class="time">8:00AM-11:00PM</td>
+                </tr>
+                <tr>
+                    <td class="day">Tuesday</td>
+                    <td class="time">8:00AM-11:00PM</td>
+                </tr>
+                <tr>
+                    <td class="day">Wednesday</td>
+                    <td class="time">8:00AM-11:00PM</td>
+                </tr>
+                <tr>
+                    <td class="day">Thursday</td>
+                    <td class="time">8:00AM-11:00PM</td>
+                </tr>
+                <tr>
+                    <td class="day">Friday </td>
+                    <td class="time">11:00AM-11:00PM</td>
+                </tr>
+                <tr>
+                    <td class="day">Saturday</td>
+                    <td class="time">11:00AM-11:00PM</td>
+                </tr>
+                <tr>
+                    <td class="day">Sunday</td>
+                    <td class="time">11:00AM-11:00PM</td>
+                </tr>
+            </table>
+        </div>
+        <div id="connect">
+            <br>
+            <br>
+            <br>
+            <h2 class="head">Connect with us</h2>
+            <br>
+            <p class="dep">Catering</p>
+            <p class="tel">(646) 242-2576</p>
+            <br>
+            <p class="dep">Private Ivents</p>
+            <p class="tel">(646) 242-5268</p>
+            <br>
+            <p class="dep">Reservations</p>
+            <p class="tel">(646) 242-7259</p>
+            
+        </div>
+    </div>
+      <script>
+        showSlides(a);
+      </script>
+    </body>
+</html>
